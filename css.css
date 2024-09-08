@@ -1,161 +1,145 @@
-
-/* =====================
-  1. global of style
-======================== */
-
 *{
     margin: 0%;
-  color: #fff;
-  font-family: math;
-  
+    color: white;
+    
+ font-family:math;
 }
-
 html{box-sizing: border-box;}
 *, *:before, *:after{ box-sizing: inherit;}
 
-
-
 .caver{
     background-image: url(https://taleek.com/img/bg-layer.svg);
-    height: 800px;
+    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: black;
-    position: relative;
-
+     height: 800px;
+     position: relative;
 }
 
 
-header , .wave, .middle{
-/* border: 4px red solid; */
-}
 
-/* =====================
-  2. navbar 
-======================== */
 
 header{
- 
-  display: flex;
-  justify-content: space-around;
-  
-}
+    padding: 10px;
 
+    display: flex;
+    justify-content: space-around;
+  
+   
+}
 .logo{
-  margin-top: 10px;
+
+
+ width: 40% ;
+
 
 }
 
 p{
-  display: inline-block;
-  position: relative;
-  top: -15px;
-  font-size: 22px;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    top: -10px;
   
 
-  
+}
+
+
+
+
+nav{
+   width: 40%;
+   margin-top: 8px;
+
+   
 }
 
 a{
-  text-decoration: none;
-  font-size: 20px;
-  margin-left: 10px;
- opacity: 0.5;
- transition: all 0.3s;
+        transition: all 0.3s;
+      margin-left: 5px;
+     text-decoration: none ;
+      font-size: 16px;
+      opacity: 0.6;
+     
 }
 a:hover{
-  opacity: 1;
+    opacity: 1;
+    color: white;
 }
+             /* Heder */
+/* ================================= */
+ /* ================================= */
+ /* ================================= */
+ /* ================================= */
+ /* ================================= */
 
-nav{
-  margin-top: 20px;
-}
+ .midle{
+    height: 400px;
+    position: static;
 
+ }
 
+ .imo1{
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ h1{
+    text-align: center;
+    font-size: 50px;
+ }
 
+ .left{
 
-
-/* =====================
-  2.  middle
-======================== */
-
-.middle{
-  height: 400px;
-  position: relative;
   
-}
-h1{
-  text-align: center;
-  font-size: 70px;
-}
-.main-img{
-  width: 400px;
-  display: block;
-  margin-left:auto ;
-  margin-right: auto;
-
-}
-
-.left{
-
-  /* border: gold 2px solid; */
-  position: absolute;
-  top: 35%;
-  left: 15%;
-}
-button{
-  /* outline: none;
-  border: none;
- */
- all: unset;
-  background: transparent;
-  border: 1px gold solid;
-  padding: 10px 15px;
-  background-color: goldenrod;
-  border-radius: 12px;
-  display: block;
-  margin: 20px 0;
-  transition: 0.3s all;
-  cursor: pointer;
-  font-size: 25px;
-  /* animation: buttonai 10s infinite; */
-
-}
-button:hover{
-  border: 1px gold solid;
-  padding: 5px 10px;
-  background-color: goldenrod;
-  font-size: 20px;
-}
-
-@media (max-width:900px)
-{
-.left{
+    position: absolute;
+    top: 35%;
+    left: 10%;
  
-  position: static;
-  text-align: center;
+   
+ }
+ button{
+    background: transparent;
+    all: unset;
+    background-color: goldenrod;
+    border: 1px gold solid;
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition:  0.3s all;
+    
 
-}
-button{
-  margin-right:auto ;
-  margin-left:auto ;
-}
-}
-
-
-
-/* =====================
-  3. wave
-======================== */
-
-
-.wave{
-
-  height: 200px;
-  position: absolute;
-  width: 100%;
-bottom: 0%;
-height: 110px;
-background-image: url(wav.png);
+ }
+ button:hover{
  
+    background-color: goldenrod;
+    border: 1px gold solid;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin:0 20px;
+    cursor: pointer;
+
+ }
+
+ @media (max-width:900px){
+    .left{
+        
+        position: static;
+       text-align: center;
+    }
 }
+
+              /* midle */
+/* ================================= */
+ /* ================================= */
+ /* ================================= */
+ /* ================================= */
+ /* ================================= */
+
+
+
+ .wav{
+    height: 200px;
+ }
