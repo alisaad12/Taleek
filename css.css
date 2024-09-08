@@ -1,0 +1,161 @@
+
+/* =====================
+  1. global of style
+======================== */
+
+*{
+    margin: 0%;
+  color: #fff;
+  font-family: math;
+  
+}
+
+html{box-sizing: border-box;}
+*, *:before, *:after{ box-sizing: inherit;}
+
+
+
+.caver{
+    background-image: url(https://taleek.com/img/bg-layer.svg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    position: relative;
+
+}
+
+
+header , .wave, .middle{
+/* border: 4px red solid; */
+}
+
+/* =====================
+  2. navbar 
+======================== */
+
+header{
+ 
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.logo{
+  margin-top: 10px;
+
+}
+
+p{
+  display: inline-block;
+  position: relative;
+  top: -15px;
+  font-size: 22px;
+  
+
+  
+}
+
+a{
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 10px;
+ opacity: 0.5;
+ transition: all 0.3s;
+}
+a:hover{
+  opacity: 1;
+}
+
+nav{
+  margin-top: 20px;
+}
+
+
+
+
+
+/* =====================
+  2.  middle
+======================== */
+
+.middle{
+  height: 400px;
+  position: relative;
+  
+}
+h1{
+  text-align: center;
+  font-size: 70px;
+}
+.main-img{
+  width: 400px;
+  display: block;
+  margin-left:auto ;
+  margin-right: auto;
+
+}
+
+.left{
+
+  /* border: gold 2px solid; */
+  position: absolute;
+  top: 35%;
+  left: 15%;
+}
+button{
+  /* outline: none;
+  border: none;
+ */
+ all: unset;
+  background: transparent;
+  border: 1px gold solid;
+  padding: 10px 15px;
+  background-color: goldenrod;
+  border-radius: 12px;
+  display: block;
+  margin: 20px 0;
+  transition: 0.3s all;
+  cursor: pointer;
+  font-size: 25px;
+  /* animation: buttonai 10s infinite; */
+
+}
+button:hover{
+  border: 1px gold solid;
+  padding: 5px 10px;
+  background-color: goldenrod;
+  font-size: 20px;
+}
+
+@media (max-width:900px)
+{
+.left{
+ 
+  position: static;
+  text-align: center;
+
+}
+button{
+  margin-right:auto ;
+  margin-left:auto ;
+}
+}
+
+
+
+/* =====================
+  3. wave
+======================== */
+
+
+.wave{
+
+  height: 200px;
+  position: absolute;
+  width: 100%;
+bottom: 0%;
+height: 110px;
+background-image: url(wav.png);
+ 
+}
